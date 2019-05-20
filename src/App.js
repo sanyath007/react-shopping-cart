@@ -8,8 +8,9 @@ import React, { Component } from 'react'
 // import EstimatedTotal from './components/EstimatedTotal/EstimatedTotal'
 // import ItemDetails from './components/ItemDetails/ItemDetails'
 // import PromoCodeDiscount from './components/PromoCode/PromoCode'
-import Shelf from './components/Shelf/Shelf'
-import FloatCart from './components/FloatCart'
+import Filter from './components/Filter';
+import Shelf from './components/Shelf/Shelf';
+import FloatCart from './components/FloatCart';
 
 // import { connect } from 'react-redux'
 // import { handleChange } from './actions/promoCodeActions'
@@ -84,6 +85,7 @@ class App extends Component {
       // </div>
       <React.Fragment>
         <main>
+          <Filter />
           <Shelf />
         </main>
         <FloatCart />

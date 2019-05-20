@@ -1,7 +1,7 @@
 const UPDATE_FILTER = "UPDATE_FILTER"
 
 const initialState = {
-  item: []
+  items: []
 }
 
 export default function (state = initialState, action) {
